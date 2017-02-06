@@ -1,0 +1,11 @@
+{
+    "JSONpaths": [{
+            "jsonPath": "$.Interchange.FunctionGroup.[*].Transaction[*].Loop[*].PER[*].PER02[*]",
+            "value": "ABC"
+        },
+        {
+            "jsonPath": "$.Interchange.FunctionGroup.[*].Transaction[*].Loop[*].PER[*].PER03[*]",
+            "value": "XYZ"
+        }
+    ]
+}
