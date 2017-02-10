@@ -1,0 +1,10 @@
+{
+    "Student": {
+        "first_name": "",
+        "last_name": "",
+        "marks": [{
+            "subject": "",
+            "score": 0
+        }]
+    }
+}

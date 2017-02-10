@@ -1,0 +1,13 @@
+{
+    "JSONpaths": [{
+            "sourcePath": "$.Interchange.FunctionGroup.[*].Transaction[*].Loop[*].PER[*]",
+            "destinationPath": "$.Student.marks[*]",
+            "type": "array"
+        },
+        {
+            "jsonPath": "$.Interchange.FunctionGroup.[*].Transaction[*].Loop[*].PER[*].PER03[*]",
+            "destinationPath": "$.Student.last_name",
+            "type": "string"
+        }
+    ]
+}

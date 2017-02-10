@@ -1,0 +1,80 @@
+limit: 1, // concurrent connections
+iterations: 1,
+
+stats { totalElapsed: 3499.3440450057387,
+  main: 
+   { meter: 
+      { mean: 0.2863705562910194,
+        count: 1,
+        currentRate: 0.28637596712322044,
+        '1MinuteRate': 0,
+        '5MinuteRate': 0,
+        '15MinuteRate': 0 },
+     histogram: 
+      { min: 3488.360977999866,
+        max: 3488.360977999866,
+        sum: 3488.360977999866,
+        variance: null,
+        mean: 3488.360977999866,
+        stddev: 0,
+        count: 1,
+        median: 3488.360977999866,
+        p75: 3488.360977999866,
+        p95: 3488.360977999866,
+        p99: 3488.360977999866,
+        p999: 3488.360977999866 } } }
+
+limit: 5, // concurrent connections
+iterations: 10,
+        
+stats { totalElapsed: 33985.78886299953,
+  main: 
+   { meter: 
+      { mean: 0.29430999883793074,
+        count: 10,
+        currentRate: 0.29430986372201084,
+        '1MinuteRate': 0.07995558537067682,
+        '5MinuteRate': 0.01652854617838262,
+        '15MinuteRate': 0.00554015199510316 },
+     histogram: 
+      { min: 14990.460808001459,
+        max: 18044.72600499913,
+        sum: 157579.43125500157,
+        variance: 855302.2615814959,
+        mean: 15757.943125500158,
+        stddev: 924.8255303469384,
+        count: 10,
+        median: 15909.96238199994,
+        p75: 15915.185061500408,
+        p95: 18044.72600499913,
+        p99: 18044.72600499913,
+        p999: 18044.72600499913 } } }
+
+
+limit: 10, // concurrent connections
+iterations: 20,
+
+stats { totalElapsed: 73635.32961300015,
+  main: 
+   { meter: 
+      { mean: 0.2716305517462407,
+        count: 20,
+        currentRate: 0.271630230184883,
+        '1MinuteRate': 0.15991117074135364,
+        '5MinuteRate': 0.03305709235676524,
+        '15MinuteRate': 0.01108030399020632 },
+     histogram: 
+      { min: 33412.88779299706,
+        max: 37047.67541100085,
+        sum: 707737.0310020074,
+        variance: 3347129.052632322,
+        mean: 35386.85155010037,
+        stddev: 1829.516070613298,
+        count: 20,
+        median: 36797.13630999997,
+        p75: 37039.675329251215,
+        p95: 37047.4910106007,
+        p99: 37047.67541100085,
+        p999: 37047.67541100085 } } }
+        
+    
