@@ -23,32 +23,3 @@ module.exports.transform = function (sourceJson, targetJson, mapper) {
     }
     return targetJson;
 }
-
-/*
-[ { PER01: [ 'IC' ],
-    PER02: [ 'JERRY' ],
-    PER03: [ 'TE' ],
-    PER04: [ '3055552222' ],
-    PER05: [ 'EX' ],
-    PER06: [ '231' ] } ]
-[ { subject: '', score: 0 } ]*/
-
-/*
-var assert = require('assert');
-var objMapToArr = require('object-map-to-array');
- 
-var o1 = {
-  a: 1,
-  b: -1,
-  c: 0,
-  d: 42
-};
- 
-objMapToArr(o1, function (n) {
-  return { id: k, value: n };
-}); /* => `[
-  [ id: 'a', value: 1 ],
-  [ id: 'b', value: -1 ],
-  [ id: 'c', value: 0 ],
-  [ id: 'd', value: 42 ]
-]` */

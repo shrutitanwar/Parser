@@ -1,5 +1,6 @@
 {
-    "JSONpaths": [{
+    "JSONpaths": 
+    [{
             "sourcePath": "$.Interchange.FunctionGroup.[*].Transaction[*].Loop[*].PER[*]",
             "destinationPath": "$.Student.marks[*]",
             "type": "array"
